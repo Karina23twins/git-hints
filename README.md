@@ -44,7 +44,8 @@ HEAD — один из служебных файлов папки .git. Он у�
 graph LR;  
 untracked -- "git add" --> staged (+tracked);  
   
-staged -- "git commit" --> tracked;
+staged -- "git commit" --> tracked;  
+```
 
 
 
