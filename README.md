@@ -42,10 +42,11 @@ HEAD — один из служебных файлов папки .git. Он у�
 
 ```mermaid  
 graph LR;  
-untracked -- "git add" --> staged (+tracked);  
-  
+untracked -- "git add" --> staged;  
 staged -- "git commit" --> tracked;  
-```
+```  
+
+### Следующий
 
 
 
